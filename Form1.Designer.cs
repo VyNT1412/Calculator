@@ -35,6 +35,7 @@
             this.txtA = new System.Windows.Forms.TextBox();
             this.txtB = new System.Windows.Forms.TextBox();
             this.txtC = new System.Windows.Forms.TextBox();
+            this.btT = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -69,9 +70,9 @@
             // 
             // btC
             // 
-            this.btC.Location = new System.Drawing.Point(168, 156);
+            this.btC.Location = new System.Drawing.Point(253, 160);
             this.btC.Name = "btC";
-            this.btC.Size = new System.Drawing.Size(97, 25);
+            this.btC.Size = new System.Drawing.Size(78, 25);
             this.btC.TabIndex = 1;
             this.btC.Text = "Cộng";
             this.btC.UseVisualStyleBackColor = true;
@@ -81,22 +82,32 @@
             // 
             this.txtA.Location = new System.Drawing.Point(154, 40);
             this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(147, 20);
+            this.txtA.Size = new System.Drawing.Size(177, 20);
             this.txtA.TabIndex = 2;
             // 
             // txtB
             // 
             this.txtB.Location = new System.Drawing.Point(154, 75);
             this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(147, 20);
+            this.txtB.Size = new System.Drawing.Size(177, 20);
             this.txtB.TabIndex = 2;
             // 
             // txtC
             // 
             this.txtC.Location = new System.Drawing.Point(154, 117);
             this.txtC.Name = "txtC";
-            this.txtC.Size = new System.Drawing.Size(147, 20);
+            this.txtC.Size = new System.Drawing.Size(177, 20);
             this.txtC.TabIndex = 2;
+            // 
+            // btT
+            // 
+            this.btT.Location = new System.Drawing.Point(154, 160);
+            this.btT.Name = "btT";
+            this.btT.Size = new System.Drawing.Size(78, 25);
+            this.btT.TabIndex = 1;
+            this.btT.Text = "Trừ";
+            this.btT.UseVisualStyleBackColor = true;
+            this.btT.Click += new System.EventHandler(this.btT_Click);
             // 
             // Form1
             // 
@@ -106,6 +117,7 @@
             this.Controls.Add(this.txtC);
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.txtA);
+            this.Controls.Add(this.btT);
             this.Controls.Add(this.btC);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -126,6 +138,7 @@
         private System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.TextBox txtB;
         private System.Windows.Forms.TextBox txtC;
+        private System.Windows.Forms.Button btT;
     }
 }
 

@@ -80,23 +80,23 @@
             // 
             // txtA
             // 
-            this.txtA.Location = new System.Drawing.Point(154, 40);
+            this.txtA.Location = new System.Drawing.Point(177, 40);
             this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(177, 20);
+            this.txtA.Size = new System.Drawing.Size(192, 20);
             this.txtA.TabIndex = 2;
             // 
             // txtB
             // 
-            this.txtB.Location = new System.Drawing.Point(154, 75);
+            this.txtB.Location = new System.Drawing.Point(177, 75);
             this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(177, 20);
+            this.txtB.Size = new System.Drawing.Size(192, 20);
             this.txtB.TabIndex = 2;
             // 
             // txtC
             // 
-            this.txtC.Location = new System.Drawing.Point(154, 117);
+            this.txtC.Location = new System.Drawing.Point(177, 117);
             this.txtC.Name = "txtC";
-            this.txtC.Size = new System.Drawing.Size(177, 20);
+            this.txtC.Size = new System.Drawing.Size(192, 20);
             this.txtC.TabIndex = 2;
             // 
             // btT

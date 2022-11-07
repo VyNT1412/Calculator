@@ -19,18 +19,24 @@ namespace Calculator
 
         private void btC_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(txtA.Text);
-            double b = double.Parse(txtB.Text);
-            double c = a+b;
-            txtC.Text = c.ToString();
+            if (txtA.Text != String.Empty && txtB.Text != String.Empty)
+            {
+                double a = double.Parse(txtA.Text);
+                double b = double.Parse(txtB.Text);
+                double c = a + b;
+                txtC.Text = c.ToString();
+            }
         }
 
         private void btT_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(txtA.Text);
-            double b = double.Parse(txtB.Text);
-            double c = a - b;
-            txtC.Text = c.ToString();
+            if (txtA.Text != String.Empty && txtB.Text != String.Empty)
+            {
+                double a = double.Parse(txtA.Text);
+                double b = double.Parse(txtB.Text);
+                double c = a - b;
+                txtC.Text = c.ToString();
+            }
         }
     }
 }
